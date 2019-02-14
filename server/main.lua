@@ -20,6 +20,7 @@ AddEventHandler('esx_clotheshop:saveOutfit', function(label, skin)
 		})
 
 		store.set('dressing', dressing)
+		store.save()
 	end)
 end)
 
